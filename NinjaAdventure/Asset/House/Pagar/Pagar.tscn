@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://NinjaAdventure/Bahan/Rumah/Pagar.png" type="Texture" id=1]
+
+[node name="Pagar" type="StaticBody2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2( 63.6803, 2.15187 )
+polygon = PoolVector2Array( -0.204135, 4.26243, -0.500151, 3.61696, -0.490803, -5.69629, 0.459564, -5.51187, 0.46268, 9.05738, 0.431521, 3.89359, 0.144853, 3.70917, 0.147969, 1.40391, 0.0357941, 0.205178, -0.0608005, -0.255874, -0.0608005, 1.95717, 0.0544899, 2.41823, 0.119925, 4.72349, 0.129273, 9.61064, 0.50942, 9.97948, 0.503188, -10.8601, -0.556238, -10.8601, -0.56247, 9.33401, -0.154279, 9.42622, -0.160511, 2.1416, -0.098192, 1.49612, -0.0919601, 0.57402, -0.197903, 1.03507 )

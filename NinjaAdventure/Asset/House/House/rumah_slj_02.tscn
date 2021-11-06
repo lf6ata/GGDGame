@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://NinjaAdventure/Asset/House/House/rumah_slj_01.tscn" type="PackedScene" id=1]
+
+[node name="rumah" instance=ExtResource( 1 )]
+
+[node name="Sprite" parent="StaticBody2D" index="0"]
+frame = 2
+
+[node name="CollisionShape2D" parent="StaticBody2D" index="1"]
+position = Vector2( 41.785, 10.6487 )
+
+[node name="CollisionShape2D2" parent="StaticBody2D" index="2"]
+position = Vector2( 41.8488, 18.1827 )

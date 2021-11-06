@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://NinjaAdventure/Actor/Monsters/Octopus2/Octopus2.png" type="Texture" id=1]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 3.57602
+height = 5.62617
+
+[node name="Monster_Salju" type="KinematicBody2D"]
+position = Vector2( 0.707108, -0.530334 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+hframes = 4
+vframes = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -0.0883904, 3.44715 )
+rotation = 1.55938
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}

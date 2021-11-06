@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://NinjaAdventure/Bahan/Rumah/Bendera.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 6.05156, 7.0498 )
+
+[node name="Bendera_Merah" type="StaticBody2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0.396851, -0.0992126 )
+texture = ExtResource( 1 )
+hframes = 7
+frame = 6
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -0.0515573, 7.5498 )
+shape = SubResource( 1 )
